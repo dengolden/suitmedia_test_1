@@ -16,7 +16,9 @@ class SecondScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         leading: IconButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pop(context);
+          },
           icon: Icon(
             Icons.arrow_back_ios,
             color: Color(0xff554AF0),
